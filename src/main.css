@@ -1,0 +1,23 @@
+.glass-card {
+  @apply backdrop-blur-xl bg-white/20 border border-white/30 rounded-2xl p-8 shadow-2xl text-white;
+}
+
+.title {
+  @apply text-2xl font-bold mb-6 text-center;
+}
+
+.input {
+  @apply w-full mb-3 px-4 py-2 rounded-lg bg-white/20 text-white placeholder-white/60 outline-none;
+}
+
+.primary-btn {
+  @apply w-full py-2 mt-2 rounded-lg bg-indigo-500 hover:bg-indigo-600 transition;
+}
+
+.card-btn {
+  @apply p-4 rounded-xl bg-white/20 hover:bg-white/30 transition;
+}
+
+.map-box {
+  @apply mt-4 h-48 flex flex-col items-center justify-center rounded-xl bg-black/30;
+}
