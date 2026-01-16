@@ -1,7 +1,6 @@
-🧠 Smart Locker Web App (Frontend)
+🧠 Smart Locker Web App
 
-This repository contains the frontend prototype of the Smart Locker Web Application built using Vue.js + Tailwind CSS.
-The backend (Firebase / database / locker control) is handled separately.
+This repository contains both frontend and backend of the webpage/webapp
 
 📦 Tech Stack
 
@@ -15,6 +14,8 @@ Tailwind CSS
 
 Node.js & npm
 
+Firebase
+
 👥 How to Run the Project
 ✅ 1. Install Requirements
           Make sure you have:
@@ -25,7 +26,7 @@ Node.js & npm
               npm -v
 
 ✅ 2. Clone the Repository
-        git clone https://github.com/YOUR-USERNAME/smart-locker.git
+        git clone https://github.com/shiena-027/smart-locker.git
         cd smart-locker
 
 ✅ 3. Install Dependencies
@@ -47,20 +48,20 @@ Node.js & npm
 > Displays lockers
 > Shows status:
     🟩 Available
-    ⬜ Occupied
+    🟥 Occupied
+    🟧  Busy
 > User selects an available locker
 > Open Locker Page
-> Simulates locker opening
+> Waits for the sensor to detect item
 > QR Page
-> Displays a QR code to reopen the locker
+> Displays a QR code and manual to reopen the locker
 
-⚠️ Note:
-All locker data and logic are mocked for UI purposes only.
 
 📁 Project Structure
 src/
  ├─ views/
  │   ├─ EnterUnit.vue
+ │   ├─ Dashboard.vue
  │   ├─ SelectLocker.vue
  │   ├─ OpenLocker.vue
  │   └─ QRPage.vue
